@@ -2,8 +2,8 @@ Unity Editor version:    2021.3.20f1 (577897200b8b)
 Branch:                  2021.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 12.4 (Build 21F79)
-Darwin version:          21.5.0
+macOS version:           Version 13.2.1 (Build 22D68)
+Darwin version:          22.3.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        8192 MB
@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker1
 -projectPath
-/Users/9dgy/Documents/GitHub/Donham-s-Favorites/MAIN
+/Users/jonathansuarez/Documents/GitHub/Donham-s-Favorites/MAIN
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50548
-Successfully changed project path to: /Users/9dgy/Documents/GitHub/Donham-s-Favorites/MAIN
-/Users/9dgy/Documents/GitHub/Donham-s-Favorites/MAIN
+56600
+Successfully changed project path to: /Users/jonathansuarez/Documents/GitHub/Donham-s-Favorites/MAIN
+/Users/jonathansuarez/Documents/GitHub/Donham-s-Favorites/MAIN
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,15 +54,15 @@ Successfully changed project path to: /Users/9dgy/Documents/GitHub/Donham-s-Favo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4408624512] Host "[IP] 10.239.244.44 [Port] 0 [Flags] 2 [Guid] 2515728716 [EditorId] 2515728716 [Version] 1048832 [Id] OSXEditor(0,crc-dot1x-nat-10-239-244-44.bu.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8812069184] Host "[IP] 10.239.49.152 [Port] 0 [Flags] 2 [Guid] 4146008343 [EditorId] 4146008343 [Version] 1048832 [Id] OSXEditor(0,crc-dot1x-nat-10-239-49-152.bu.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4408624512] Host "[IP] 10.239.244.44 [Port] 0 [Flags] 2 [Guid] 2515728716 [EditorId] 2515728716 [Version] 1048832 [Id] OSXEditor(0,crc-dot1x-nat-10-239-244-44.bu.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8812069184] Host "[IP] 10.239.49.152 [Port] 0 [Flags] 2 [Guid] 4146008343 [EditorId] 4146008343 [Version] 1048832 [Id] OSXEditor(0,crc-dot1x-nat-10-239-49-152.bu.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 139.67 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 12.78 ms.
+Refreshing native plugins compatible for Editor in 85.69 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 6.36 ms.
 Initialize engine version: 2021.3.20f1 (577897200b8b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/9dgy/Documents/GitHub/Donham-s-Favorites/MAIN/Assets
+[Subsystems] Discovering subsystems at path /Users/jonathansuarez/Documents/GitHub/Donham-s-Favorites/MAIN/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
  preferred device: Apple M1 (high power)
 Metal devices available: 1
@@ -73,91 +73,95 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56791
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000915 seconds.
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.20f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002748 seconds.
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 68 ms
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 73.19 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.16 ms.
+Refreshing native plugins compatible for Editor in 77.88 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.506 seconds
+- Completed reload, in  0.509 seconds
 Domain Reload Profiling:
-	ReloadAssembly (506ms)
-		BeginReloadAssembly (88ms)
+	ReloadAssembly (509ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (354ms)
-			LoadAssemblies (97ms)
-			RebuildTransferFunctionScriptingTraits (6ms)
-			SetupTypeCache (88ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (386ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (71ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (192ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (268ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (114ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (73ms)
+				RefreshPlugins (78ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (87ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				ProcessInitializeOnLoadAttributes (48ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007006 seconds.
+Registered in 0.007425 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/9dgy/Documents/GitHub/Donham-s-Favorites/MAIN/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/9dgy/Documents/GitHub/Donham-s-Favorites/MAIN/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jonathansuarez/Documents/GitHub/Donham-s-Favorites/MAIN/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jonathansuarez/Documents/GitHub/Donham-s-Favorites/MAIN/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 78.17 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.59 ms.
+Refreshing native plugins compatible for Editor in 74.10 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  0.968 seconds
+- Completed reload, in  0.778 seconds
 Domain Reload Profiling:
-	ReloadAssembly (968ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (778ms)
+		BeginReloadAssembly (64ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (789ms)
-			LoadAssemblies (123ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (650ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (218ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (368ms)
+			SetupTypeCache (195ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (308ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (2ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (79ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (204ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.30 seconds
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
-Unloading 4351 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 58 unused Assets / (102.5 KB). Loaded Objects now: 4785.
-Memory consumption went from 152.8 MB to 152.7 MB.
-Total: 3.709334 ms (FindLiveObjects: 0.237791 ms CreateObjectMapping: 0.058209 ms MarkObjects: 3.240583 ms  DeleteObjects: 0.172083 ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.18 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Unloading 4354 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (93.3 KB). Loaded Objects now: 4792.
+Memory consumption went from 152.6 MB to 152.5 MB.
+Total: 2.806583 ms (FindLiveObjects: 0.189416 ms CreateObjectMapping: 0.059584 ms MarkObjects: 2.454042 ms  DeleteObjects: 0.102792 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,7 +175,425 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 571429.472369 seconds.
-  path: Assets/Stainless_steel_sink.obj
-  artifactKey: Guid(d62fc87e20864420b837cffa548f5168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stainless_steel_sink.obj using Guid(d62fc87e20864420b837cffa548f5168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c260107efc51cb0c7037b27e1bd6bab') in 0.686908 seconds 
+  Time since last request: 31711.931208 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh23.jpg
+  artifactKey: Guid(eb65521302d5f4585b5869dfba5a5591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh23.jpg using Guid(eb65521302d5f4585b5869dfba5a5591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6a2e0cdbe55722b962d97c0cab4c79') in 0.571211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh8.jpg
+  artifactKey: Guid(b76ad51d722184062a59772258534701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh8.jpg using Guid(b76ad51d722184062a59772258534701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada371d25084c42535da42c7bb02708d') in 0.008611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh13.jpg
+  artifactKey: Guid(02e77fdcfcbe74de9819aa6c29adcfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh13.jpg using Guid(02e77fdcfcbe74de9819aa6c29adcfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59657119a46acda426825feff360faad') in 0.007436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Prefabs/Normal Wall.prefab
+  artifactKey: Guid(e7a25bd9eb414444fa60cb6490878a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Normal Wall.prefab using Guid(e7a25bd9eb414444fa60cb6490878a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5575481826335bd3a727ac647d39b042') in 0.546107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh24.jpg
+  artifactKey: Guid(3cb7591a60b9a46c0b37c7ead40a9967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh24.jpg using Guid(3cb7591a60b9a46c0b37c7ead40a9967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4dd221825a6a68357f1ca47444a9f86') in 0.009506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh18.jpg
+  artifactKey: Guid(c3add73e821cd4e83b61ea89be1d0fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh18.jpg using Guid(c3add73e821cd4e83b61ea89be1d0fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b50eab630f2cfdc26ac79da764cceb') in 0.005772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh8.jpg
+  artifactKey: Guid(7f3a8c116dd054d36a24a3b0b8afab43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh8.jpg using Guid(7f3a8c116dd054d36a24a3b0b8afab43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15649327d56e1a671b6bed53ad23fad') in 0.005467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh26.jpg
+  artifactKey: Guid(d1e9faeeec3024bc58d61d2b0a6fbaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh26.jpg using Guid(d1e9faeeec3024bc58d61d2b0a6fbaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5507b20181bf5b65c6b5b05f5af8db0e') in 0.006696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/ProBuilder Data/Default Material Palette.asset
+  artifactKey: Guid(c5756d161ba1f419ebf083c33cd86555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProBuilder Data/Default Material Palette.asset using Guid(c5756d161ba1f419ebf083c33cd86555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7873b7bc9e31f10e809aa31f0b53fb') in 0.037225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh14.jpg
+  artifactKey: Guid(a1d1513d9df004f09b2a86cb3c0eb11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh14.jpg using Guid(a1d1513d9df004f09b2a86cb3c0eb11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7f1c2428392d7a13199622860a34f1') in 0.005538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh15.jpg
+  artifactKey: Guid(44b31115317424b7080024c7bb72992a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh15.jpg using Guid(44b31115317424b7080024c7bb72992a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de95201d1c9e664b5a17b6b4bf521e2') in 0.008268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh4.jpg
+  artifactKey: Guid(229566a01ecc9417dbf278226a1acd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh4.jpg using Guid(229566a01ecc9417dbf278226a1acd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a6bc034ca1210daf5b8aa3889031e7') in 0.008253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh1.jpg
+  artifactKey: Guid(e0846360a6e27439689ba5462e2bf93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh1.jpg using Guid(e0846360a6e27439689ba5462e2bf93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f07b4f5f6938807940c3482196403a') in 0.007795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh22.jpg
+  artifactKey: Guid(6eb6bee57469f465387abd1e791984f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh22.jpg using Guid(6eb6bee57469f465387abd1e791984f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b6c205063e54e43302fc371536a6c4') in 0.006908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh9.jpg
+  artifactKey: Guid(6021cd5ed8a064e4f9177b215ff9add4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh9.jpg using Guid(6021cd5ed8a064e4f9177b215ff9add4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef2e264abe8a5e3f0011705fd46e27c') in 0.005752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh10.jpg
+  artifactKey: Guid(97b3d5c693ad94dc295ff99b9f0d34ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh10.jpg using Guid(97b3d5c693ad94dc295ff99b9f0d34ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d7a4367482390d8ba4ba2fd236b0c2') in 0.005392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh1.jpg
+  artifactKey: Guid(9475dcc4c336744ac9094f8a899e9e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh1.jpg using Guid(9475dcc4c336744ac9094f8a899e9e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b085570f5703a4b003eb963c31c45b07') in 0.008040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh6.jpg
+  artifactKey: Guid(c633a4f54cc6f4ff2b15a5b3f69e2892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh6.jpg using Guid(c633a4f54cc6f4ff2b15a5b3f69e2892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd120d1ff63e8c4bb8e19167edbeb7d0f') in 0.008373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh30.jpg
+  artifactKey: Guid(996ab5402109c4138ba852bcf2d420ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh30.jpg using Guid(996ab5402109c4138ba852bcf2d420ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9c9d5a95804edd43e96b48cafba284') in 0.007605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh4.jpg
+  artifactKey: Guid(4a754b18ba60c47e19efabcbba54206a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh4.jpg using Guid(4a754b18ba60c47e19efabcbba54206a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7730f956172476bca904040c1d31d7a') in 0.006868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh5.jpg
+  artifactKey: Guid(c5342059b94324af0a2c367219a27c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh5.jpg using Guid(c5342059b94324af0a2c367219a27c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a336093f6620d96eb2676061af63e120') in 0.006404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh12.jpg
+  artifactKey: Guid(006ac50db518e47e38fb867b4365bb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh12.jpg using Guid(006ac50db518e47e38fb867b4365bb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b68bd198850683934033a97e879a9c2') in 0.006994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh9.jpg
+  artifactKey: Guid(da19058944dd34c00a66d43051871932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh9.jpg using Guid(da19058944dd34c00a66d43051871932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beeb00575242872eac2f882571fb7ad9') in 0.009252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh14.jpg
+  artifactKey: Guid(be711b24df048498997c1ca9f3e7c139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh14.jpg using Guid(be711b24df048498997c1ca9f3e7c139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba7ae29c15fa425455c0ba661949cf2') in 0.008283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh25.jpg
+  artifactKey: Guid(c26165b6ef73940569546ac1fbfcf68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh25.jpg using Guid(c26165b6ef73940569546ac1fbfcf68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e77d95b81a3ebd39c2d8a78ad714f0a') in 0.006982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Prefabs/Wall with door.prefab
+  artifactKey: Guid(4b52bf851e88b49519bf3f2dfe478fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wall with door.prefab using Guid(4b52bf851e88b49519bf3f2dfe478fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3792578bf9f9effa4abc458fe05a3add') in 0.002395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh0.jpg
+  artifactKey: Guid(13df2eb8e3e0e4e798e3a388e9925d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh0.jpg using Guid(13df2eb8e3e0e4e798e3a388e9925d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b33a0344715af753b1c011c69f543af') in 0.006822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh3.jpg
+  artifactKey: Guid(add886cf7c95946408116ee8f1581849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh3.jpg using Guid(add886cf7c95946408116ee8f1581849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf0f384d7970b0a0cb14d4394e7dcde') in 0.010338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh18.jpg
+  artifactKey: Guid(99269ac6856524446866a8077c372555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh18.jpg using Guid(99269ac6856524446866a8077c372555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8cb952facfab4d725a9573359cb648a') in 0.009708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh0.jpg
+  artifactKey: Guid(e169e920b071649ef85d75a16755acff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh0.jpg using Guid(e169e920b071649ef85d75a16755acff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec58ff2e44658cbd3cd6544aa2bfd09') in 0.008622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh21.jpg
+  artifactKey: Guid(203c861adaaf149029026bef525935d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh21.jpg using Guid(203c861adaaf149029026bef525935d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22af5f78a89315f4a661ab0c24e907e') in 0.007962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh5.jpg
+  artifactKey: Guid(a550d412ce8ed4cf08db6d94ed8bb0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh5.jpg using Guid(a550d412ce8ed4cf08db6d94ed8bb0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e134ddd86f931e6bd7a5dafadeb8c8') in 0.012674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh13.jpg
+  artifactKey: Guid(6e4248636f3884fa696037ca21e7ce07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh13.jpg using Guid(6e4248636f3884fa696037ca21e7ce07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd48c94c736522309c07c8149773756') in 0.010027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh7.jpg
+  artifactKey: Guid(b1c34d80f80d74f26a9d52fdd2d66783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh7.jpg using Guid(b1c34d80f80d74f26a9d52fdd2d66783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a1b000765c129370a00122233572a5') in 0.006595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh10.jpg
+  artifactKey: Guid(a5e8e1a2f2f0241dabd06ca98de8868f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh10.jpg using Guid(a5e8e1a2f2f0241dabd06ca98de8868f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d61888a102675cd9c2e9d7e0434874') in 0.012410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh7.jpg
+  artifactKey: Guid(541f0458028a649d68909d71bfa83602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh7.jpg using Guid(541f0458028a649d68909d71bfa83602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5b8e6e36eb6ad63f0debd823660544') in 0.010525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh20.jpg
+  artifactKey: Guid(03ad96c6bd14848e9a0606120d51011d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh20.jpg using Guid(03ad96c6bd14848e9a0606120d51011d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29ff15612d76b9a3024ecb280c880c3') in 0.007538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh15.jpg
+  artifactKey: Guid(69b3a81bc49814823b98a7c6e1f0e7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh15.jpg using Guid(69b3a81bc49814823b98a7c6e1f0e7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b191b46bc95687a7097e2e4571e23457') in 0.008113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh6.jpg
+  artifactKey: Guid(fe4f2110405054f41a0af2ccfaaaa6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh6.jpg using Guid(fe4f2110405054f41a0af2ccfaaaa6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b687b2d3c094b4abbb3b45a82aed72') in 0.013259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh2.jpg
+  artifactKey: Guid(f25dc5bfc83d5467db194c31f612cbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh2.jpg using Guid(f25dc5bfc83d5467db194c31f612cbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdfad1c21ce4ae3cc41e5f508a21c9c') in 0.015811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh24.jpg
+  artifactKey: Guid(e78d645e46a0940e3959b9b949e23c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh24.jpg using Guid(e78d645e46a0940e3959b9b949e23c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8652836d34ba048ac0b47cac090d810') in 0.009517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh23.jpg
+  artifactKey: Guid(093f185d8bc1f4e639e1e2172babbb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh23.jpg using Guid(093f185d8bc1f4e639e1e2172babbb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba59d17f61aec9090941627af9624cf') in 0.020572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh12.jpg
+  artifactKey: Guid(a5dd6acc7b4e94fcc94b96e4a27d47e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh12.jpg using Guid(a5dd6acc7b4e94fcc94b96e4a27d47e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995c281764dacf14aaa3cfad9ba767cb') in 0.030481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh17.jpg
+  artifactKey: Guid(ec27483604a914c8e9940dee1cca5371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh17.jpg using Guid(ec27483604a914c8e9940dee1cca5371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e933bc69d6c2460deb1488705fd5da9') in 0.007214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh19.jpg
+  artifactKey: Guid(9fc09ef3113b44963bc86fc4ad790089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh19.jpg using Guid(9fc09ef3113b44963bc86fc4ad790089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45514655e99c6a006e96800a59e76274') in 0.005393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh3.jpg
+  artifactKey: Guid(9ab5fe621a63743c088cb5bfe23d6500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh3.jpg using Guid(9ab5fe621a63743c088cb5bfe23d6500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795a15c08cdec286d5ad50b00a1ab8ad') in 0.009771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh16.jpg
+  artifactKey: Guid(2e4c5fa1511b6419bb04945e347f2500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh16.jpg using Guid(2e4c5fa1511b6419bb04945e347f2500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c72192158eb3f617f5a5a0ea0c8364c') in 0.006925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh17.jpg
+  artifactKey: Guid(dd8c24e7825b147329ebfc5786abaa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh17.jpg using Guid(dd8c24e7825b147329ebfc5786abaa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13b00bc3c20541b4b9499b419ac80dd') in 0.005680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh20.jpg
+  artifactKey: Guid(1daa32d6623114b2d99613c0e938042a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh20.jpg using Guid(1daa32d6623114b2d99613c0e938042a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99139e2f0ddf05f4c82469651e97e18') in 0.005119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh11.jpg
+  artifactKey: Guid(3979187be3c5d46a08da5cbaa13d5a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh11.jpg using Guid(3979187be3c5d46a08da5cbaa13d5a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4080b506c120942920096b3534633fea') in 0.005874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh19.jpg
+  artifactKey: Guid(117c1cc7100314bad9428dcd0e5ca1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh19.jpg using Guid(117c1cc7100314bad9428dcd0e5ca1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08937e9bcb556ec3aca107ea955eef8a') in 0.005347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh27.jpg
+  artifactKey: Guid(bf06322d8868144cb8ca87a100a5dff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh27.jpg using Guid(bf06322d8868144cb8ca87a100a5dff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7896484d28b7cb28956f6837e45d79') in 0.008414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ProBuilder Data/Default Color Palette.asset
+  artifactKey: Guid(1df616acd2e8e4673a3a316af671766f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProBuilder Data/Default Color Palette.asset using Guid(1df616acd2e8e4673a3a316af671766f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8f7e403480dd6331457a5260625c88') in 0.001957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh31.jpg
+  artifactKey: Guid(2f9b5a03128c3463f85c4bc7a8598ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh31.jpg using Guid(2f9b5a03128c3463f85c4bc7a8598ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875f6922380ad57370e0e50de8079966') in 0.004921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh11.jpg
+  artifactKey: Guid(f9727853d2df645c7ba4e4a0401aacd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh11.jpg using Guid(f9727853d2df645c7ba4e4a0401aacd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fb7dceebc031fd9220f46de6a1dd5e') in 0.005497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh2.jpg
+  artifactKey: Guid(f3db2de3ac84f47ee8665eed9dbfe502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh2.jpg using Guid(f3db2de3ac84f47ee8665eed9dbfe502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0afd2a55847c9490f04b1e74831dc201') in 0.006100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh28.jpg
+  artifactKey: Guid(1243439ea21544f9c84a3ed89fedaadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh28.jpg using Guid(1243439ea21544f9c84a3ed89fedaadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302e141a854248eca42fdaf2b08421b7') in 0.006152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh29.jpg
+  artifactKey: Guid(bad3915cd2eef45e6a5cad5083937fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Reprocessed_Model/ReprocessedMesh29.jpg using Guid(bad3915cd2eef45e6a5cad5083937fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2165ded4372e27574240cb8b6d242447') in 0.007187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh21.jpg
+  artifactKey: Guid(38f342963a79c4b609409c5bdc87454f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reprocessed Mesh - Feb-10-2023-at-18-18-25---reprocessed-mesh/ReprocessedMesh21.jpg using Guid(38f342963a79c4b609409c5bdc87454f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85e3792bc07846135d55eb484e6f779') in 0.006271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.353576 seconds.
+  path: Assets/DB_Apps&Tech_04_13_OBJ/DB_Apps&Tech_04_13.obj
+  artifactKey: Guid(05338cc990e644ece823f896e08d21e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB_Apps&Tech_04_13_OBJ/DB_Apps&Tech_04_13.obj using Guid(05338cc990e644ece823f896e08d21e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5167c8ce0ea235403dddef4391eefe') in 0.668755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/DB_Apps&Tech_04_13_OBJ/DB_Apps&Tech_04_13_03.png
+  artifactKey: Guid(77f9a6e42ac2b4c699541bb99d5232ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB_Apps&Tech_04_13_OBJ/DB_Apps&Tech_04_13_03.png using Guid(77f9a6e42ac2b4c699541bb99d5232ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0336e90efad37c93dbe0cd485ed322') in 0.063151 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003120 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x286537000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/jonathansuarez/Documents/GitHub/Donham-s-Favorites/MAIN/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jonathansuarez/Documents/GitHub/Donham-s-Favorites/MAIN/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.38 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.743 seconds
+Domain Reload Profiling:
+	ReloadAssembly (744ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (580ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (222ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (226ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Unloading 4313 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (65.2 KB). Loaded Objects now: 4843.
+Memory consumption went from 173.0 MB to 172.9 MB.
+Total: 3.841583 ms (FindLiveObjects: 0.243375 ms CreateObjectMapping: 0.074416 ms MarkObjects: 3.390834 ms  DeleteObjects: 0.131875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
