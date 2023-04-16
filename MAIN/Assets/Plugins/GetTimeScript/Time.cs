@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.UI; // for Unity UI
+using TMPro; // for TextMeshPro
 
 public class Time : MonoBehaviour
 {
     public string location = "Oxford, United Kingdom";
     public string apiKey;
-    public GameObject textObject;
+    public TextMeshProUGUI textComponent; // for TextMeshPro
 
     async void Start()
     {
@@ -26,8 +28,8 @@ public class Time : MonoBehaviour
             var abbreviation = apiResponse.abbreviation;
 
             // Set text on 3D text object
-            var textComponent = textObject.GetComponent<TextMesh>();
-            textComponent.text = $"Current time in {location} is {dateTime} ({timeZone} {abbreviation})";
+            var textComp = textComponent.GetComponent<TextMeshProUGUI>();
+            textComp.text = $"Current time in {location} is {dateTime} ({timeZone} {abbreviation})";
         }
     }
 

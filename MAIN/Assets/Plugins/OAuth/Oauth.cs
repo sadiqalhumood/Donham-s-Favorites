@@ -18,8 +18,8 @@ public class Oauth : MonoBehaviour
 
         HttpClient client = new HttpClient();
 
-        string clientId = "";
-        string clientSecret = "";
+        string clientId = "sJFuzGQouLL-eXquSjvJgw";
+        string clientSecret = "_8El4T3uzCYj_29Ozba7M7woCY_FbA";
         string username = this.username.text;
         string password = this.password.text;
         string userAgent = "MyBot/0.0.1";
