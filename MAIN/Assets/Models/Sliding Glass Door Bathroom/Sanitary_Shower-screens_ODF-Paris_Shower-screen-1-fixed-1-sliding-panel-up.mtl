@@ -1,0 +1,44 @@
+# material "PT94 Glass"
+newmtl 8652d462_0c15_4473_a653_7f5ac0e271a5
+illum 1
+Ka 0 0 0
+Kd 0.980392 1 1
+Ks 1 1 1
+Tf 1 1 1
+d 0.0149938
+Tr 0.985006
+Ns 0.14532
+
+# material "Default Material"
+newmtl Default_Material
+illum 1
+Ka 0.792157 0.211765 0.0627451
+Kd 1 0 0
+Ks 0 0 0
+Tf 1 1 1
+d 1
+Tr 0
+
+# material "PT94 Aluminium Shiny Polished"
+newmtl c7df19f8_52e8_41a1_8382_ccd4c7d984ff
+illum 1
+Ka 0 0 0
+Kd 0.627451 0.627451 0.627451
+Ks 1 1 1
+Tf 1 1 1
+d 1
+Tr 0
+Ns 0.565629
+
+# material "PT94 24 Matt Black"
+newmtl d36cfbcb_e6dc_4cf5_89d2_eb362c86d6cc
+illum 1
+Ka 0 0 0
+Kd 0.156863 0.156863 0.156863
+Ks 1 1 1
+Tf 1 1 1
+d 1
+Tr 0
+Ns 0.19975
+
+

@@ -10,8 +10,11 @@ using UnityEngine.SceneManagement;
 
 public class Oauth : MonoBehaviour
 {
-    public TMP_InputField username;
-    public TMP_InputField password;
+    public TMP_InputField username; // for input
+    public TMP_InputField password; // for input
+    public string USERNAME; // for database
+    public string PASSWORD; // for database
+    public static Oauth Instance;
 
     public void OnLoginPress()
     {
@@ -42,9 +45,17 @@ public class Oauth : MonoBehaviour
 
         var jsonContent = response.Content.ReadAsStringAsync().Result;
         Debug.Log(jsonContent);
-        var accessToken = jsonContent; //maybe change this
+        var accessToken = jsonContent; 
 
-        if (!string.IsNullOrEmpty(accessToken)) //this needs fixing
+        USERNAME = username.ToString();
+        PASSWORD = password.ToString();
+
+        var ds = new DataService("Unity.db");
+        ds.AddUser(USERNAME, PASSWORD);
+
+
+
+        if (!string.IsNullOrEmpty(accessToken)) 
         {
         Debug.Log("Logged in with username: " + username);
 
