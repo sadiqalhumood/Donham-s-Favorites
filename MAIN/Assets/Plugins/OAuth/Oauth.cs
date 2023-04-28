@@ -47,24 +47,22 @@ public class Oauth : MonoBehaviour
         Debug.Log(jsonContent);
         var accessToken = jsonContent; 
 
-        USERNAME = username.ToString();
-        PASSWORD = password.ToString();
-
-        var ds = new DataService("Unity.db");
-        ds.AddUser(USERNAME, PASSWORD);
 
 
-
-        if (!string.IsNullOrEmpty(accessToken)) 
-        {
-        Debug.Log("Logged in with username: " + username);
-
-        SceneManager.LoadScene("ApartmentTour");
-        }
-        else
+        if (accessToken.ToString().Contains("invalid_grant")) 
         {
         Debug.Log("Authentication failed for username: " + username);
         Debug.Log(jsonContent);
+        }
+        else
+        {
+        USERNAME = username.ToString();
+        PASSWORD = password.ToString();
+        var ds = new DataService("Unity.db");
+        ds.AddUser(USERNAME, PASSWORD);
+        Debug.Log("Logged in with username: " + username);
+        SceneManager.LoadScene("ApartmentTour");
+        
         // Display an error message to the user
         }
 
